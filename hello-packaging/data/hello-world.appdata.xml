@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Omar Aguirre <omar.fi.wwr@gmail.com> -->
+
+<component type="desktop">
+ <id>com.github.GoldenGladier.hello-packaging</id>
+ <metadata_license>CC0</metadata_license>
+ <name>Hello World packaging</name>
+ <summary>Learning Vala and GTK</summary>
+ <description>
+    <p>This is my application "Hello World" made with Bala and Gtk.</p>
+ </description>
+
+ <custom>
+  <value key="x-appcenter-color-primary">#603461</value>
+  <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+  <value key="x-appcenter-suggested-price">5</value>
+ </custom>
+</component>
