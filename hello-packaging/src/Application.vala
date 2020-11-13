@@ -10,10 +10,10 @@ protected override void activate () {
     var main_window = new Gtk.ApplicationWindow (this){
         default_height = 300,
         default_width = 500,
-        title = _("Hello World - Packaging")
+        title = "Hello World - Packaging"
     };
 
-    var label = new Gtk.Label _("Hello world!");
+    var label = new Gtk.Label("Hello world!");
     
     main_window.add  (label);
     main_window.show_all ();
